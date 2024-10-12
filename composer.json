@@ -1,0 +1,21 @@
+{
+    "name": "mwayi-anyula/brand",
+    "type": "typo3-cms-extension",
+    "description": "Site package for TYPO3 starter installation.",
+    "homepage": "https://typo3.mwayianyula.com",
+    "license": ["GPL-2.0-or-later"],
+    "keywords": ["TYPO3 CMS"],
+    "require": {
+        "bk2k/bootstrap-package": "^13.0 || ^14.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "MwayiAnyula\\Brand\\": "Classes/"
+        }
+    },
+    "extra": {
+        "typo3/cms": {
+            "extension-key": "brand"
+        }
+    }
+}
